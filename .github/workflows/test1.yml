@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    - name: Deploy Docker image to Google Cloud Run
+    - name: Display message
       run: echo " HI vishwanath"
 
   notify:
@@ -19,5 +19,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Notify Slack and send eMail
-        run: echo " Email sent to notify "
+      - name: Notify send eMail
+        run: echo " Email sent to notify 123"
